@@ -1,4 +1,4 @@
-from attacks import brute_force
+from attacks import port_scan
 
 if __name__ == "__main__":
-    brute_force.simulate_bruteforce()
+   port_scan.simulate_port_scan()
