@@ -21,3 +21,5 @@ def simulate_port_scan(target_ip="127.0.0.1", ports=range(20, 30)):
 
             except Exception as e:
                 print(f"[!] Error scanning port {port}: {e}")
+def run():
+    return simulate_port_scan()

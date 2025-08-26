@@ -19,3 +19,5 @@ def simulate_bruteforce(target_ip="127.0.0.1", port=22, attempts=10):
             print(log_line.strip())
             f.write(log_line)
             time.sleep(0.2) 
+def run():
+    return simulate_bruteforce()
